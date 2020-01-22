@@ -3,6 +3,7 @@ import './App.css';
 // import logo from './logo.svg';
 import Cards from './components/cards';
 import images from './images'
+import HeaderDisp from './components/header/header'
 import ScoreDisp from './components/score/score';
 var shuffle = require('shuffle-array');
 
@@ -76,8 +77,12 @@ clicked =(pictureId) => {
 
 render() {
   return (
-    <div><ScoreDisp 
+    <div>
+      <ScoreDisp 
     score={this.state.score}/>
+    <div>
+    <HeaderDisp />
+    </div>
     {this.state.images.map(image => {
       return(
         <Cards

@@ -1,3 +1,11 @@
-h5 {
+h2 {
     text-align: center;
+    margin-bottom: 10%;
+}
+.scoreDiv {
+    background-color: rgb(196, 122, 122);
+    height: 50px;
+    position: absolute;
+    width: 100%;
+  
 }
