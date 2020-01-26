@@ -1,0 +1,14 @@
+.imgDiv {
+    float: left;
+    
+    /* padding: 5%; */
+    background-color:black;
+    margin: 2%;
+    padding: 1%;
+    border-radius: 4%;
+}
+img {
+    width: 290px;
+    margin-top: 10px;
+    margin-left: 5px;    
+}

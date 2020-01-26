@@ -1,0 +1,12 @@
+.headerDiv {
+    padding-top: 5%;
+    text-align: center;
+    background-image: url('../../images/background.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 200px;
+    /* width: 100%; */
+}
+h1 {
+    font-size: 55px;
+}
