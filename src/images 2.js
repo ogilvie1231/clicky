@@ -1,41 +1,40 @@
-
 let images = 
 [
     {
         "id": 0,
-        "img": "./images/1.jpg"
+        "img": "/images/1.jpg"
     },
     {
         "id": 1,
-        "img": "./images/2.jpg"
+        "img": "/images/2.jpg"
     },
     {
         "id": 2,
-        "img": "./images/3.jpg"
+        "img": "/images/3.jpg"
     }, 
     {
         "id": 3,
-        "img": "./images/4.jpg"
+        "img": "/images/4.jpg"
     },
     {
         "id": 4,
-        "img": "./images/5.jpg"
+        "img": "/images/5.jpg"
     },
     {
         "id": 5,
-        "img": "./images/6.jpg"
+        "img": "/images/6.jpg"
     },
     {
         "id": 6,
-        "img": "./images/7.jpg"
+        "img": "/images/7.jpg"
     },
     {
         "id": 7,
-        "img": "./images/8.jpg"
+        "img": "/images/8.jpg"
     },
     {
         "id": 8,
-        "img": "./images/9.jpg"
+        "img": "/images/9.jpg"
     },
     {
         "id": 9,
@@ -43,11 +42,11 @@ let images =
     },
     {
         "id": 10,
-        "img": require("./images/11.jpg")
+        "img": "/images/11.jpg"
     },
     {
         "id": 11,
-        "img": require("/images/12.jpg")
+        "img": "/images/12.jpg"
     }
 ]
 
