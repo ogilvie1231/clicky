@@ -39,15 +39,15 @@ let images =
     },
     {
         "id": 9,
-        "img": "/images/10.jpg"
+        "img": "./images/10.jpg"
     },
     {
         "id": 10,
-        "img": require("./images/11.jpg")
+        "img": "./images/11.jpg"
     },
     {
         "id": 11,
-        "img": require("/images/12.jpg")
+        "img": "./images/12.jpg"
     }
 ]
 
